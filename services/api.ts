@@ -1,7 +1,6 @@
 import axios from "axios";
 import { Property, Booking, Profile } from "./types";
 
-// Use the correct IP of your local machine on the same network as your mobile device
 import { API_URL } from "@env";
 
 export const BASE_URL = API_URL;
