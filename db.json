@@ -1,0 +1,107 @@
+{
+  "properties": [
+    {
+      "id": "2",
+      "title": "Luxury Beach House",
+      "price": 5000,
+      "location": {
+        "address": "456 Ocean Ave",
+        "city": "Malibu",
+        "state": "CA",
+        "coordinates": {
+          "latitude": 34.0259,
+          "longitude": -118.7798
+        }
+      },
+      "features": [
+        "4 Bedrooms",
+        "3 Bathrooms",
+        "Beachfront",
+        "Private Pool"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1512917774080-9991f1c4c750",
+        "https://images.unsplash.com/photo-1613490493576-7fde63acd811"
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Modern Beach House",
+      "price": 5000,
+      "location": {
+        "address": "456 Ocean Ave",
+        "city": "Cape town",
+        "state": "RSA",
+        "coordinates": {
+          "latitude": 34.0259,
+          "longitude": -118.7798
+        }
+      },
+      "features": [
+        "4 Bedrooms",
+        "3 Bathrooms",
+        "Beachfront",
+        "Private Pool"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1512917774080-9991f1c4c750",
+        "https://images.unsplash.com/photo-1613490493576-7fde63acd811"
+      ]
+    }
+  ],
+  "bookings": [
+    {
+      "id": "1749991136742",
+      "propertyId": "2",
+      "userId": "user4",
+      "checkIn": "2025-06-19",
+      "checkOut": "2025-06-28",
+      "status": "confirmed",
+      "name": "Luxury Beach House"
+    },
+    {
+      "id": "1749991213542",
+      "propertyId": null,
+      "userId": "user4",
+      "checkIn": "2025-06-24",
+      "checkOut": "2025-06-30",
+      "status": "confirmed",
+      "name": "Modern Downtown Apartment"
+    },
+    {
+      "id": "1749992054359",
+      "propertyId": "3",
+      "userId": "user4",
+      "checkIn": "2025-06-17",
+      "checkOut": "2025-06-28",
+      "status": "confirmed",
+      "name": "Modern Beach House"
+    },
+    {
+      "id": "1749993169870",
+      "propertyId": "3",
+      "userId": "user4",
+      "checkIn": "2025-06-26",
+      "checkOut": "2025-06-30",
+      "status": "confirmed",
+      "name": "Modern Beach House"
+    },
+    {
+      "id": "1749995561377",
+      "propertyId": "2",
+      "userId": "user4",
+      "checkIn": "2025-06-18",
+      "checkOut": "2025-06-30",
+      "status": "confirmed",
+      "name": "Luxury Beach House"
+    }
+  ],
+  "profile": {
+    "id": "user1",
+    "name": "John Doe",
+    "email": "john@example.com",
+    "bookings": [
+      "1"
+    ]
+  }
+}
