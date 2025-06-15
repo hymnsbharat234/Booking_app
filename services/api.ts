@@ -1,9 +1,7 @@
 import axios from "axios";
 import { Property, Booking, Profile } from "./types";
 
-import { API_URL } from "@env";
-
-export const BASE_URL = API_URL;
+const API_URL = "https://booking-backend-hg72.onrender.com";
 
 // Fetch all properties
 export const fetchProperties = async (): Promise<Property[]> => {
